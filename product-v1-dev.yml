@@ -3,7 +3,7 @@ spring:
     type: redis
   redis: 
     host: localhost
-    port: 6375
+    port: 6379
     timeOfLife: 60000
   data:
     mongodb:
