@@ -1,0 +1,25 @@
+spring:
+  cache: 
+    type: redis
+  redis: 
+    host: localhost
+    port: 6379
+    timeOfLife: 60000
+  data:
+    mongodb:
+      database: coderhouse
+      host: localhost
+      port: 27017
+
+jwt:
+  expiration: 1800000
+  secret: springbootjwtcoderhouse
+
+springdoc:
+  api-docs:
+    path: /openapi
+  swagger-ui:
+    path: /openapi/index.html
+
+server:
+  port: 8080
