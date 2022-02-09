@@ -4,7 +4,7 @@ spring:
   redis: 
     host: localhost
     port: 6379
-    timeOfLife: 1800000
+    timeOfLife: 60000
   data:
     mongodb:
       database: coderhouse
