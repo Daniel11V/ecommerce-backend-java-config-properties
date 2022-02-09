@@ -14,6 +14,21 @@ spring:
 jwt:
   expiration: 1800000
   secret: springbootjwtcoderhouse
+  
+mail:
+  host: smtp.gmail.com
+  port: 587
+  username: coderhousebackendjava@gmail.com
+  password: yh22B1B3BiEFcy
+  properties:
+    mail:
+      smtp:
+        auth: true
+        connectiontimeout: 5000
+        timeout: 5000
+        writetimeout: 5000
+        starttls:
+          enable: true
 
 springdoc:
   api-docs:
