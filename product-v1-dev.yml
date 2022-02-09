@@ -19,7 +19,7 @@ mail:
   host: smtp.gmail.com
   port: 587
   username: coderhousebackendjava@gmail.com
-  password: yh22B1B3BiEFcy
+  password: sdjcouhhtdaifhke
   properties:
     mail:
       smtp:
